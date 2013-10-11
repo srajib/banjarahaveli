@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>Location Map</name>
+  <author>OrdaSoft, Nikolay Salionovych</author> 
+  <creationDate>15-06-2008</creationDate>
+  <copyright>&#169; OrdaSoft 2007</copyright>
+  <authorEmail>akbet@mail.ru, salionovych@ukr.net</authorEmail>
+  <version>1.5.1</version>
+ 
+ <description>Location Map module for Joomla 1.5.x</description>
+   
+   <files>
+     <filename module="mod_location_map">mod_location_map.php</filename>
+     <filename>razn_google_map.php</filename>
+     <filename>razn_google_map.html</filename> 
+  </files>       
+  
+   
+   
+
+  <params>          
+       <param name="google_map_key" type="text" default="" label="Google Maps key" description="Google Maps key. Obtain a key for your website from http://www.google.com/apis/maps/signup.html" />
+	
+<param name="latitude" type="text" default="50" label="Map Center - latitude" description="Center of your location map - latitude" />
+	
+       <param name="longitude" type="text" default="36.26" label="Map Center - longitude" description="Center of your location map - longitude" />
+	<param name="zoom" type="text" default="9" label="Zoom Level" description="Zoom Level for your location map" />
+	
+ <param name="marker_lat" type="text" default="50" label="Latitude for Marker" description="Latitude for the Marker on your location map" />
+	<param name="marker_lon" type="text" default="36.26" label="Longitude for Marker" description="Longitude for the Marker on your location map" />
+	<param name="map_width" type="text" default="400" label="Width of map (px)" description="The width of your location map (in px)" />
+	<param name="map_height" type="text" default="250" label="Height of map (px)" description="The  height of your location map (in px)" />
+	<param name="messag" type="textarea" cols="20" rows="5" default="Orda Soft, Ukraine" label="Text Message for Marker" description="Text Message for the Marker on your location map (HTML code is supported)" />
+	<param name="menu_map" type="radio" default="0" label="Map Type Menu" description="Show Map Type Menu (Map-Satellite-Hybrid)">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+	</param>
+	<param name="control_map" type="radio" default="0" label="Map Controls Menu" description="Show Map Controls (Up-Down-Left-Right)">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+	</param>
+	<param name="map_text" type="text" default="50" label="text for Map" description="Latitude for the Marker on your location map" />
+
+  </params>
+</install>

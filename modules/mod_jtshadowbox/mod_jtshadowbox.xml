@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JT Shadowbox</name>
+	<author>Jay Tucker - JayTucker.com</author>
+	<creationDate>June 2010</creationDate>
+	<copyright>(C) 2001 - 2010 JayTucker.com All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@jaytucker.com</authorEmail>
+	<authorUrl>www.jaytucker.com</authorUrl>
+	<version>2.0</version>
+	<description>Displays thumbnail images inside a module position that can be opened in a shadowbox window.</description>
+	<files>
+		<filename module="mod_jtshadowbox">mod_jtshadowbox.php</filename>
+		<filename module="mod_jtshadowbox">shadowbox/loading.gif</filename>
+		<filename module="mod_jtshadowbox">shadowbox/close.png</filename>
+		<filename module="mod_jtshadowbox">shadowbox/next.png</filename>
+		<filename module="mod_jtshadowbox">shadowbox/pause.png</filename>
+		<filename module="mod_jtshadowbox">shadowbox/play.png</filename>
+		<filename module="mod_jtshadowbox">shadowbox/previous.png</filename>
+		<filename module="mod_jtshadowbox">shadowbox/shadowbox.js</filename>
+		<filename module="mod_jtshadowbox">shadowbox/shadowbox.css</filename>
+		<filename module="mod_jtshadowbox">shadowbox/index.html</filename>
+		<filename module="mod_jtshadowbox">tmpl/default.php</filename>
+	</files>
+	<params>
+		<param name="directory" type="radio" default="stories" label="Use which folder below?" description="From the folder selecton below, will you be using the /images/ folder or the /images/stories/ folder?">
+			<option value="images">/images/</option>
+			<option value="stories">/images/stories/</option>
+		</param>
+		<param name="directoryimages" type="folderlist" description="If you have uploaded your images to the /images/ folder, you can use this, otherwise, you can use the option below." default="images/" label="Images folder" directory="images/" filter="" exclude="" stripext="" hide_default="true" />
+		<param name="directorystories" type="folderlist" description="As default in Joomla the images folder is actually /images/stories/ so if you uploaded you images there, you can choose the folder here." default="images/stories/" label="or.. Stories folder" directory="images/stories/" filter="" exclude="" hide_default="true" stripext="" />
+		<param name="thumbsuffix" type="text" default="_thumb" label="Thumbnail suffix" description="To use a smaller thumbnail of your images, put them in the same directory with the same file name, but add a suffix i.e. My_Car.jpg with My_Car_thumb.jpg">
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="usefullasthumb" type="radio" default="1" label="Use a scaled full size image as thumbnail" description="Use a scaled down full size image as thumbnail if no thumbnail (_thumb) image exists?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="resizeimages" type="radio" default="2" label="Resize images" description="Options for resizing the images, either all images, or just the ones that dont have corresponding thumb (_thumb) images. i.e. full size images without thumbnails.">
+			<option value="0">No resizing</option>
+			<option value="1">All images</option>
+			<option value="2">Only full images</option>
+		</param>
+		<param name="resizewidth" type="text" default="100" label="Resize width" description="If you want to use scaled versions of the full sized images set the width in px here. i.e. 100">
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="imagealign" type="radio" default="center" label="Image alignment" description="Align Left, Center or Right.">
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="layout" type="radio" default="vertical" label="Image layout" description="Horizontal or Vertical layout">
+			<option value="horizontal">Horizontal</option>
+			<option value="vertical">Vertical</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title" type="text" default="" label="Shadowbox title" description="Title displayed at the top of the lightbox.">
+		</param>
+		<param name="imagetitle" type="radio" default="1" label="Image name in title" description="This feature will append a cleaned up version of the actual file name to the shadowbox title, i.e. My_Car.jpg would give the title: My Car">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="showoverlay" type="radio" default="1" label="Show overlay" description="Show background overlay">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="overlayopacity" type="text" default="0.5" label="Overlay opacity" description="Overlay opacity default: 0.5">
+		</param>
+		<param name="overlaycolor" type="text" default="" label="Overlay color" description="Hex color i.e. #EE9600">
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="slideshowmode" type="radio" default="1" label="Slideshow mode" description="This will automatically skip to the next image in the shadowbox.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="slideshowdelay" type="text" default="5" label="Slideshow delay" description="Amount of seconds to wait before displaying next image when using slideshow mode.">
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="message" type="textarea" default="JT Shadowbox, not to shabby, not to shabby at all!" label="Gallery text" description="Optional message to display - HTML is OK :)" rows="10" cols="30" />
+		<param name="messagelocation" type="radio" default="top" label="Message location" description="Where should the text be located relative to the images">
+			<option value="top">Top</option>
+			<option value="bottom">Bottom</option>
+			<option value="0">None</option>
+		</param>
+	</params>
+</install>

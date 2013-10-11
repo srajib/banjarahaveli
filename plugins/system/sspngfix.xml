@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+  <name>System - SuperSleight PNG Fix</name>
+  <author>Jovic Nikola</author>
+  <creationDate>20/03/2009</creationDate>
+  <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+  <authorEmail>nikola.jovic@ymail.com</authorEmail>
+  <version>1.0</version>
+  <description>
+  This plugin fixes PNG transparency issues in IE6. 
+  It is completely based on Drew McLellan's SuperSleight.js - 
+  for more info, visit http://24ways.org/2007/supersleight-transparent-png-in-ie6/ 
+  or http://www.edgeofmyseat.com/
+  </description>
+  <params>
+	<param name="fix_fn" type="radio" default="1" label="PNG Fix functionality" description="Pick objects to apply PNG fix to. Background image fix might not work properly with certain templates">
+		<option value="0">Off</option>
+		<option value="1">Inline (content) images only</option>
+		<option value="2">Inline and background images</option>
+	</param>
+  </params>
+  <files>
+    <filename plugin="sspngfix">sspngfix.php</filename>
+    <filename plugin="sspngfix">pngfixjs/supersleight.js</filename>
+    <filename plugin="sspngfix">pngfixjs/supersleight_bg.js</filename>
+    <filename plugin="sspngfix">pngfixjs/supersleight-min.js</filename>
+    <filename plugin="sspngfix">pngfixjs/supersleight-min_bg.js</filename>
+    <filename plugin="sspngfix">pngfixjs/x.gif</filename>
+  </files>
+</install>

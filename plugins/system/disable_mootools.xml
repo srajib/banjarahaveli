@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Disable Mootools</name>
+	<author>SiteFactory.SU</author>
+	<creationDate>February 2010</creationDate>
+	<copyright>Copyright (C) 2009 - 2010 SiteFactory.SU. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>joomla@sitefactory.su</authorEmail>
+	<authorUrl>www.sitefactory.su</authorUrl>
+	<version>1.0.1</version>
+	<description>Disable/enable loading mootools scripts</description>
+	<files>
+		<filename plugin="disable_mootools">disable_mootools.php</filename>
+	</files>
+	<params>
+	<param name="enabled" type="radio" default="1" label="Enable or disable loading mootools script" description="If yes, the MooTools library will not be loaded. Plugin should be enabled">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

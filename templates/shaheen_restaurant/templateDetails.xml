@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>ShaheenRestaurant</name>
+	<creationDate>24/03/2012</creationDate>  
+	<author>Rajib Rahman</author>
+	<authorEmail>rajib@srajib.info</authorEmail>
+	<authorUrl>http://www.webtechbd.net</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>royal_kabab</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>		
+		<filename>images/index.html</filename>		
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>welcome</position>
+		<position>right</position>
+		<position>right_message</position>
+		<position>topMenu</position>
+		<position>mainMenu</position>
+		<position>sliderGellery</position>
+		<position>rssMenu</position>
+		<position>search</position>
+		<position>mainBanner</position>
+		<position>mainTab</position>
+		<positions>innerBanner</positions>
+		<position>news</position>
+		<position>events</position>		
+		<position>faq</position>
+		<positions>bottomLeft</positions>
+		<positions>bottomRight</positions>
+		<position>footerRight</position>
+		<position>footerLeft</position>
+		<position>debug</position>
+		<position>gMap</position>
+		<position>information</position>
+		<position>image_gallery</position>
+		<position>route_map</position>
+		<position>homeLogin</position>
+		<position>mostcomments</position>
+	</positions>	
+</install>

@@ -1,0 +1,92 @@
+.page_scroller ,.page_scroller div, .page_scroller h3, .page_scroller p, .page_scroller a{margin:0;padding:0;min-height:1px;_height:1px;}
+
+.page_scroller img{margin:0;padding:0;}
+
+.page_scroller img{border:0;}
+
+.align-c{ text-align: center;}
+
+.align-r{ text-align: right;}
+
+.relative { position: relative; }
+
+.static { position: static !important;  }
+
+.usability{ left: -10000px; position: absolute; text-align: left; width: 1px; height: 1px; overflow: hidden;}
+
+.item { font-size: 1.2em; position: relative; margin: 0;}
+
+.module_partner{ float:left; width:649px; margin-top:20px; background:url(images/partner_left.gif) top left no-repeat; }
+
+.module_partner div{ float:left; width:637px; background:url(images/partner_bg.gif) top left repeat-x; margin:0px 0 0 6px; }
+
+.module_partner div div{ float:left; width:637px; background:url(images/partner_right.gif) top right no-repeat; }
+
+.module_partner div div div{ float:left; width:520px; padding:0px 0px -1px; background:none; }
+
+.scroller_page{ position: relative; margin: 0 auto; /*background:url(images/partner_left.gif) top left no-repeat;*/ }
+
+.news{ /*background:url(images/partner_right.gif) top right no-repeat; padding-right:6px;*/ }
+
+.header{ position: relative;}
+
+.carousel-holder a,.carousel-holder a:hover { outline: none; text-decoration: none;}.carousel { position: relative;}
+
+.carousel .scroller { position: relative; margin: 0 auto; overflow: hidden; _height: auto;}
+
+.carousel .itemlist { margin: 0 !important; padding: 0 !important; font-size: 0.83em !important;}
+
+.carousel .itemlist li { position: relative; margin: 0 !important; padding: 0 !important; list-style: none; overflow: hidden;}
+
+.carousel .itemlist li ul { margin: 0 !important; padding: 0 !important;}
+
+.carousel .itemlist li span { position: absolute; display: block; padding: 2px 4px; opacity: 0.85; filter: alpha(opacity=85);}
+
+.carousel .itemlist li img { display: block;}.carousel .paging-controls  { position: relative;}
+
+.carousel .paging-controls a { position: absolute; /*background-image: url(images/carousel.png);*/ background-repeat: no-repeat; background-position:0 0;}
+
+/*Partners Module Start*/
+#frontpage_bottom_left div.moduletable{
+	margin-bottom:0px;
+}
+
+.news .ccogr2 {
+		/*background:url(images/partner_bg.gif) top left repeat-x;
+		margin:0px 0 0 6px;*/
+	}
+/*Partners Module End*/
+
+/*.carousel .paging-controls a { background:url(images/partner_left.gif) top left no-repeat; }*/
+
+.carousel .paging-controls a.next { right:-40px; background:url(images/partner_right_btn.gif) center left no-repeat; }
+
+.carousel .paging-controls a.previous { left: -40px; background:url(images/partner_left_btn.gif) center left no-repeat; }
+
+.carousel-holder .horizontal .scroller { clear: both; background:none;}
+
+.carousel-holder .horizontal .itemlist { width: 1170px;}
+
+.carousel-holder .horizontal .itemlist li { float: left;}
+
+.gamma-carousel { padding:0 0 50px;}
+
+.femail .gamma-carousel { background: url(images/carousel.gif)  no-repeat  top right;}
+
+.gamma-carousel h3 { float: left; font-size: 1.17em; text-transform: uppercase; color: #00AAD2;}
+
+.gamma-carousel p { float: right; padding: 2px 0; font-weight: bold; font-size: 1em;}
+
+.gamma-carousel .carousel-holder { clear: both; background:none; }
+
+.gamma-carousel .itemlist { margin-left: -111px !important;}
+
+.gamma-carousel .itemlist li { margin-right: 16px !important; width: 111px; height: 80px;}
+
+.gamma-carousel .itemlist a { height: 80px;}
+
+.gamma-carousel .itemlist span { top: 60px; left: 0; width: 111px; height: 76px; font-size: 11px; font-family: Verdana; line-height: 13px;}
+
+.gamma-carousel .itemlist span strong { display: block; font-size: 12px;}
+
+.gamma-carousel .paging-controls a { height:30px; top:-50px; width:30px;}

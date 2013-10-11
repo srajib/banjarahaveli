@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+  <name>Ultimate PNG Fix [for IE v6 or lower] (by JoomlaWorks)</name>
+  <author>JoomlaWorks</author>
+  <authorEmail>contact@joomlaworks.gr</authorEmail>
+  <authorUrl>www.joomlaworks.gr</authorUrl>
+  <copyright>Copyright (c) 2006-2010 JoomlaWorks, a business unit of Nuevvo Webware Ltd. All rights reserved.</copyright>
+  <creationDate>Dec 12th, 2010</creationDate>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>3.0</version>
+  <description>Thank you for installing Ultimate PNG Fix for Joomla! 1.5</description>
+  <params>
+    <param name="pngFixScript" type="list" default="unitpngfix" label="Select PNG fix script" description="Select PNG fix script to apply to your website.">
+      <option value="unitpngfix">Unit PNG Fix (by Unit Interactive) [recommended]</option>
+      <option value="supersleight">SuperSleight (by Drew McLellan)</option>
+      <option value="DD_belatedPNG">DD_belatedPNG (Drew Diller)</option>
+    </param>
+    <param name="DD_belatedPNG_CSSClass" type="text" size="40" default=".pngfix" label="CSS selectors to apply DD_belatedPNG fix" description="Enter one or more CSS selectors separated by comma like this: .example1, .example2, img" />
+  </params>
+  <files>
+    <filename plugin="jw_ultimatePNGFix">jw_ultimatePNGFix.php</filename>
+    <folder>jw_ultimatePNGFix</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.plg_system_jw_ultimatePNGFix.ini</language>
+  </languages>
+</install>

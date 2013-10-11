@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="FeedCreator 1.8.0-dev (info@mypapit.net)" -->
+<rss version="2.0"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Progati News Feed</title>
+        <description></description>
+        <link>http://localhost/brtc/</link>
+        <lastBuildDate>Wed, 09 Feb 2011 01:36:30 GMT</lastBuildDate>
+        <generator>FeedCreator 1.8.0-dev (info@mypapit.net)</generator>
+		<atom:link href="http://localhost/brtc/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw&amp;Itemid=87" rel="self" type="application/rss+xml" />        <item>
+            <title>Services for Government</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=108:services-for-government&amp;Itemid=104</link>
+            <description><![CDATA[<p>coming soon</p>]]></description>
+            <pubDate>Tue, 25 Jan 2011 02:36:40 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=108:services-for-government&amp;Itemid=104</guid>
+        </item>
+        <item>
+            <title>City Service</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=107:city-service&amp;Itemid=95</link>
+            <description><![CDATA[<p>Information coming soon</p>]]></description>
+            <pubDate>Tue, 25 Jan 2011 02:19:00 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=107:city-service&amp;Itemid=95</guid>
+        </item>
+        <item>
+            <title>Workshop Facilities</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=106:workshop-facilities&amp;catid=55:services&amp;Itemid=79</link>
+            <description><![CDATA[<p>Information coming soon....</p>]]></description>
+            <pubDate>Tue, 25 Jan 2011 00:40:01 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=106:workshop-facilities&amp;catid=55:services&amp;Itemid=79</guid>
+        </item>
+        <item>
+            <title>Training Institute</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=105:training-institute&amp;catid=55:services&amp;Itemid=78</link>
+            <description><![CDATA[<p>Information Coming Soon...</p>]]></description>
+            <pubDate>Tue, 25 Jan 2011 00:28:09 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=105:training-institute&amp;catid=55:services&amp;Itemid=78</guid>
+        </item>
+        <item>
+            <title>Truck</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=104:truck&amp;catid=55:services&amp;Itemid=77</link>
+            <description><![CDATA[<p>Information Coming Soon...</p>]]></description>
+            <pubDate>Tue, 25 Jan 2011 00:25:59 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=104:truck&amp;catid=55:services&amp;Itemid=77</guid>
+        </item>
+        <item>
+            <title>Bus</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=103:bus&amp;catid=55:services&amp;Itemid=76</link>
+            <description><![CDATA[<p>Information Coming Soon...</p>]]></description>
+            <pubDate>Tue, 25 Jan 2011 00:03:00 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=103:bus&amp;catid=55:services&amp;Itemid=76</guid>
+        </item>
+        <item>
+            <title>Others</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=101:others&amp;catid=34:about-us&amp;Itemid=92</link>
+            <description><![CDATA[<p>Coming Soon..</p>]]></description>
+            <pubDate>Mon, 24 Jan 2011 23:21:05 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=101:others&amp;catid=34:about-us&amp;Itemid=92</guid>
+        </item>
+        <item>
+            <title>Workshop</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=100:workshop&amp;catid=34:about-us&amp;Itemid=91</link>
+            <description><![CDATA[<p>Coming Soon..</p>]]></description>
+            <pubDate>Mon, 24 Jan 2011 23:20:12 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=100:workshop&amp;catid=34:about-us&amp;Itemid=91</guid>
+        </item>
+        <item>
+            <title>Training Institution</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=99:training-institution&amp;catid=34:about-us&amp;Itemid=90</link>
+            <description><![CDATA[<p>Coming Soon..</p>]]></description>
+            <pubDate>Mon, 24 Jan 2011 23:19:37 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=99:training-institution&amp;catid=34:about-us&amp;Itemid=90</guid>
+        </item>
+        <item>
+            <title>Depot</title>
+            <link>http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=98:depot&amp;catid=34:about-us&amp;Itemid=74</link>
+            <description><![CDATA[<p>Information Coming Soon...</p>]]></description>
+            <pubDate>Mon, 24 Jan 2011 23:19:18 GMT</pubDate>
+            <guid isPermaLink="false">http://localhost/brtc/index.php?option=com_content&amp;view=article&amp;id=98:depot&amp;catid=34:about-us&amp;Itemid=74</guid>
+        </item>
+    </channel>
+</rss>

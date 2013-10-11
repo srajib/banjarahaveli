@@ -1,0 +1,72 @@
+ /**
+ * THIS FILE IS BASED ON MOD_EVENTLIST_WIDE FROM SCHLU.NET
+ * @version 1.0 $Id: mod_eventlist_teaser.css 003 2010-01-21 19:12:52Z $
+ * @package Joomla
+ * @subpackage EventList Teaser Module
+ * @copyright (C) 2010 ezuri.de
+ * @license GNU/GPL, see LICENCE.php
+ * EventList is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License 2
+ * as published by the Free Software Foundation.
+ * You should have received a copy of the GNU General Public License
+ * along with EventList; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+ 
+#eventlistteaser .calendar {
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 42px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding: 5px 0 0 0;
+	float:left;
+	margin-right:10px;
+} 
+#eventlistteaser span.share{
+	/*margin-left:15px;*/
+}
+
+#eventlistteaser .calendar .year{
+	font-size: 6px;
+	height:9px;
+	color: #e1e1e1;
+}
+
+#eventlistteaser .calendar .month {
+	font-size: 14px;
+	color: white;
+	text-transform:uppercase;
+/*	font-weight:bold;
+	text-shadow: #666 1px 1px 1px;*/
+}
+
+#eventlistteaser .calendar .day{
+	font-weight:bold;
+	padding-top:3px;
+}
+
+#eventlistteaser .calendar .daynum{
+	font-size: 14px;
+	/*font-weight:bold;
+	text-shadow: #fff 1px 1px 1px;*/
+	color:#ffffff;
+}
+
+#eventlistteaser .clear {clear:both;}
+
+
+div#elmodulewide .image-preview {
+	height: 60px;
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+	background-color: white;
+	margin:3px 5px 0 0;
+}
+
+#eventlistteaser .float_right {
+	float:right;
+}
+#eventlistteaser .image-preview {
+	border:5px solid #fefefe;
+}

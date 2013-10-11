@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="module" method="upgrade">
+	<name>Easy Tabs</name>
+	<author>Dhaval Ramwani</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>E-Commerce</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ecommer4@ecommercedevelopment.co.in</authorEmail>
+	<authorUrl>www.ecommercedevelopment.co.in</authorUrl>
+	<version>1.0.1</version>
+	<description>Easy Tabs with JQuery</description>
+	<files>
+		<filename module="mod_easytabs">mod_easytabs.php</filename>
+		<folder>js/</folder>
+	</files>
+	<params>
+		
+		<param name="tab1" type="text" size="5" default="Tab1" label="Tab1" description="Tab1 Title" />
+		<param name="tab1_desc" type="textarea" rows="10" cols="50" label="Tab1 Description" description="Tab1 Description" />
+		
+		<param name="tab2" type="text" size="5" default="Tab2" label="Tab2" description="Tab2 Title" />
+		<param name="tab2_desc" type="textarea" rows="10" cols="50" label="Tab2 Description" description="Tab2 Description" />
+		
+		<param name="tab3" type="text" size="5" default="Tab3" label="Tab3" description="Tab3 Title" />
+		<param name="tab3_desc" type="textarea" rows="10" cols="50" label="Tab3 Description" description="Tab3 Description" />
+		
+		<param name="tab4" type="text" size="5" default="Tab4" label="Tab4" description="Tab4 Title" />
+		<param name="tab4_desc" type="textarea" rows="10" cols="50" label="Tab4 Description" description="Tab4 Description" />
+		
+	</params>
+</install>

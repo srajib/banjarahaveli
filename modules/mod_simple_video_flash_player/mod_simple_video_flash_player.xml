@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+	<name>Simple Video Flash Player Module</name>
+	<author>www.time2online.de</author>
+	<creationDate>01/06/2011</creationDate>
+	<copyright>time2online</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@time2online.de</authorEmail>
+	<authorUrl>http://www.time2online.de</authorUrl>
+	<version>1.6.5</version>
+	<description>
+	<![CDATA[
+	<p># Simple Video Flash Player Module #</p>
+	<p>For download, demo and documentation use http://www.time2online.de.</p>
+
+	<p># JW Player License #</p>
+	<p>Below you see a simple embedded example of the JW Player!</p>
+	<p>Licensing: The player is licensed under a http://creativecommons.org/licenses/by-nc-sa/2.0/ Creative Commons License. It allows you to use, modify and redistribute the script, but only for noncommercial purposes.</p>
+	
+	<p>For corporate use, http://www.longtailvideo.com/players/order Order commercial licenses please apply for a commercial license.</p>
+	]]>
+	</description>
+	<files>
+	    <filename module="mod_simple_video_flash_player">index.html</filename>
+		<filename module="mod_simple_video_flash_player">mod_simple_video_flash_player.php</filename>
+		<filename module="mod_simple_video_flash_player">demo.flv</filename>
+		<filename module="mod_simple_video_flash_player">jwplayer.swf</filename>
+		<filename module="mod_simple_video_flash_player">jwplayer.js</filename>
+		<filename module="mod_simple_video_flash_player">readme.txt</filename>
+	</files>
+	<params>
+	    <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="height" type="text" default="225" label="Video Height" description="the height of the flash player (default value is 225)" />
+			<param name="width" type="text" default="225" label="Video Width" description="the width of the flash player (default value is 225)" />
+			<param name="controlbar" type="list" default="bottom" label="Controlbar" description="position of the controlbar (default value is bottom)" >
+				<option value="over">Over</option>
+				<option value="none">None</option>
+				<option value="top">Top</option>
+				<option value="bottom">Bottom (default)</option>
+			</param>
+			<param name="backcolor" type="text" default="" label="Background Color" description="the background-color of the flash player (for example #e2e2e2)" />
+			<param name="frontcolor" type="text" default="" label="Front Color" description="the icon/text color of the player (for example #000000)" />
+			<param name="lightcolor" type="text" default="" label="Light Color" description="the rollover color of the player (for example #b2b2b2)" />
+			<param name="screencolor" type="text" default="" label="Screen Color" description="The display color of the player (for example #000000)" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="file" type="text" default="demo.flv" label="Single Video URL" description="edit flash video url (for example http://content.bitsontherun.com/videos/3ta6fhJQ.flv)" />
+			<param name="image" type="text" default="" label="Preview Image URL" description="edit preview image url (for example http://content.bitsontherun.com/thumbs/qyehIiBT.jpg)" />
+			<param name="fallbackimage" type="text" default="" label="Fallback Image URL" description="edit fallback image url (for example http://content.bitsontherun.com/thumbs/qyehIiBT.jpg)" />
+			<param name="linktarget" type="text" default="http://www.time2online.de/joomla-extensions.html" label="Link URL" description="edit link to an external site (for example http://www.joomla.org)" />	
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="playlistfile" type="text" default="" label="Multi Playlist URL" description="edit XML playlist file location (for example http://www.longtailvideo.com/jw/upload/mrss.xml)" />
+			<param name="playlist" type="list" default="over" label="Playlist Position" description="position of the playlist (default value is over)" >
+				<option value="">None</option>
+				<option value="bottom">Bottom</option>
+				<option value="over">Over (default)</option>
+				<option value="right">Right</option>
+				<option value="left">Left</option>
+				<option value="top">Top</option>				
+			</param>
+			<param name="playlistsize" type="text" default="180" label="Playlistsize" description="edit height or width of the playlist (default is 180)" />	
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="autostart" type="radio" default="" label="Autostart" description="automatically start playing (default value is no)" >
+				<option value="">No (default)</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="repeat" type="list" default="" label="Repeat" description="continously repeat playback (default value is no)" >
+				<option value="">No (default)</option>
+				<option value="always">Always</option>
+				<option value="list">List</option>
+			</param>
+			<param name="shuffle" type="list" default="" label="Shuffle" description="shuffle playlist order (default value is no)" >
+				<option value="">No (default)</option>
+				<option value="1">Shuffle</option>
+			</param>			
+			<param name="stretching" type="list" default="" label="Stretching" description="resize mode of display content (default value is uniform)" >
+				<option value="">uniform (default)</option>
+				<option value="fill">fill</option>
+				<option value="exactfit">exactfit</option>
+				<option value="none">none</option>
+			</param>				
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+			<param name="skin" type="text" default="" label="Skin URL" description="edit link to an skin file (for example http://www.longtailvideo.com/jw/upload/stylish.swf)" />
+			<param name="plugins" type="text" default="" label="Plugin ID" description="edit ids of plugin to load (for example revolt)" />
+			<param name="streamer" type="text" default="" label="Streamer" description="edit location of server/script to use for streaming (for example rtmp://edge01.fms.dutchview.nl/botr/)" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+</install>
